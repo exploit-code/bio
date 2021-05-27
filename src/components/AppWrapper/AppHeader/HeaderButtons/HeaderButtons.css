@@ -1,0 +1,33 @@
+.header_buttons {
+    width: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_buttons div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #f96057;
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: #f8ce52;
+}
+
+.green {
+    background-color: #5fcf65;
+    cursor: pointer;
+}
+
+.green:hover {
+    background-color: #4cea54;
+}
+
+.red:hover {
+    background-color: #f5453b;
+}

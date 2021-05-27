@@ -1,0 +1,28 @@
+.transparent_button {
+    margin: 0px;
+    background: none;
+    color: rgba(249, 250, 251, 0.55);
+    border: 1px solid rgba(249, 250, 251, 0.55);
+    padding: 6px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.transparent_button:hover {
+    background-color: rgba(146, 151, 179, 0.13);
+    transition: all 0.3s ease 0s;
+}
+
+@media screen and (max-width: 550px) {
+    .transparent_button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .transparent_button {
+        padding: 4px 10px;
+    }
+}

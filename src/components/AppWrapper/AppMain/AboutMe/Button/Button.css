@@ -1,0 +1,20 @@
+.button {
+  background-color: #3a6df0;
+  border: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #1e59f1;
+}
+
+@media screen and (max-width: 550px) {
+  .button {
+    padding: 6px 12px;
+  }
+}

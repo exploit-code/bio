@@ -1,0 +1,63 @@
+.certificate_card_subtext {
+    font-size: 15px;
+    line-height: 1.6em;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgba(113, 119, 144, 0.25);
+}
+
+.app_card_buttons {
+    margin-left: auto;
+}
+
+.icon_certificate {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.icon_certificate_container {
+    display: flex;
+    align-items: center;
+}
+
+.certificate_card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: rgba(146, 151, 179, 0.13);
+    border: 1px solid rgba(16, 18, 27, 0.3);
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    min-width: 230px;
+    flex: 1 1 25%;
+}
+
+.certificate_card:hover {
+    background-color: rgba(16, 18, 27, 0.3);
+}
+
+@media screen and (max-width: 550px) {
+
+    .certificate_card {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .certificate_card_subtext {
+        font-size: 12px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .app_card_buttons {
+        margin-top: 0px;
+    }
+
+    .app_card_buttons .content_button {
+        font-size: 12px;
+    }
+
+}

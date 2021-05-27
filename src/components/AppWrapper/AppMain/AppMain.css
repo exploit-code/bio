@@ -1,0 +1,22 @@
+.app_main {
+  background-color: rgba(16, 18, 27, 0.3);
+  overflow: auto;
+  height: calc(100% - 55px);
+  padding: 20px 30px;
+  box-sizing: border-box;
+  scrollbar-width: none;
+}
+
+.app_main::-webkit-scrollbar {
+  display: none;
+}
+
+.app_main {
+  -ms-overflow-style: none;
+}
+
+@media screen and (max-width: 550px) {
+  .app_main {
+    padding: 15px;
+  }
+}

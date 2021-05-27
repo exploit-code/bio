@@ -1,0 +1,67 @@
+.about_me {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url("../../../../pictures/texture.png"), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.about_me_text {
+    max-width: 350px;
+}
+
+.sup_text {
+    font-size: 17px;
+    color: #ebecec;
+    margin-top: 0px;
+}
+
+.sub_text {
+    font-size: 15px;
+    margin-top: 16px;
+    color: #ebecec;
+}
+
+.about_me_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (max-width: 800px) {
+    .about_me_img {
+        display: none;
+    }
+
+    .about_me_text {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about_me {
+        padding: 15px;
+    }
+
+    .sup_text {
+        font-size: 16px;
+    }
+
+    .sub_text {
+        font-size: 13px;
+    }
+
+    .button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .sup_text {
+        font-size: 15px;
+    }
+}
