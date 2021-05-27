@@ -2,17 +2,11 @@ body {
   margin: 0px;
 }
 
-@font-face {
-  font-family: Poppins;
-  src: url(../../font/Poppins-Light.ttf);
-  font-display: swap;
- }
-
 #root {
   background-image: url(../../pictures/bg_app.jpeg);
   background-size: cover;
   background-position: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   display: flex;
   justify-content: center;
