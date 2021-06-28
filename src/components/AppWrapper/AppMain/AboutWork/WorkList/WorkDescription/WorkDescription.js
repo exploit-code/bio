@@ -8,8 +8,8 @@ function WorkDescription(props) {
     })
 
     return (
-        <li className='work_description'>
-            <ul className='hidden_work_info'>
+        <li className='work-list__description'>
+            <ul className='work-list__description-hidden'>
                 {workDescriptionItem}
             </ul>
         </li>

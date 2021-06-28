@@ -5,10 +5,10 @@ import HeaderAvatar from './HeaderAvatar/HeaderAvatar';
 
 let AppHeader = (props) => {
   return (
-    <div className='app_header'>
+    <header className='header'>
       <HeaderButtons fullScreen={props.fullScreen} close={props.close} />
       <HeaderAvatar />
-    </div>
+    </header>
   );
 }
 export default AppHeader;

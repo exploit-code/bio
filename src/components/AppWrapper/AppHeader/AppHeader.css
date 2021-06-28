@@ -1,14 +1,13 @@
-.app_header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
     border-bottom: 1px solid rgba(113, 119, 144, 0.25);
-    padding: 0 30px;
+    padding: 10px 30px;
 }
 
 @media screen and (max-width: 550px) {
-    .app_header {
-        padding: 0 15px;
+    .header {
+        padding: 10px 15px;
     }
 }

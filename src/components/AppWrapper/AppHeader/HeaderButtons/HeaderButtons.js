@@ -10,10 +10,10 @@ let HeaderButtons = (props) => {
         }
     }
     return (
-        <div className='header_buttons'>
-            <div className='red' onClick={props.close} />
-            {!props.onlyRed && <div className='yellow' />}
-            {!props.onlyRed && <div className='green' onClick={onGreenClick} />}
+        <div className='header__buttons'>
+            <div className='header__button-item header__button-item--red' onClick={props.close} />
+            {!props.onlyRed && <div className='header__button-item header__button-item--yellow' />}
+            {!props.onlyRed && <div className='header__button-item header__button-item--green' onClick={onGreenClick} />}
         </div>
     );
 

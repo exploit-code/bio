@@ -1,9 +1,9 @@
-.header_avatar {
+.header__avatar-box {
     display: flex;
     align-items: center;
 }
 
-.avatar_img {
+.header__avatar-img {
     width: 30px;
     height: 30px;
     object-fit: cover;

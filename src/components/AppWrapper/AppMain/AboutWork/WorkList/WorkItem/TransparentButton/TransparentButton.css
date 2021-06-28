@@ -1,4 +1,4 @@
-.transparent_button {
+.transparent-button {
     margin: 0px;
     background: none;
     color: rgba(249, 250, 251, 0.55);
@@ -9,20 +9,20 @@
     outline: none;
 }
 
-.transparent_button:hover {
+.transparent-button:hover {
     background-color: rgba(146, 151, 179, 0.13);
     transition: all 0.3s ease 0s;
 }
 
 @media screen and (max-width: 550px) {
-    .transparent_button {
+    .transparent-button {
         padding: 5px 10px;
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .transparent_button {
+    .transparent-button {
         padding: 4px 10px;
     }
 }

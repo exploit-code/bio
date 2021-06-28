@@ -1,6 +1,5 @@
-.certificate_cards {
+.certificate-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    color: ghostwhite;
 }

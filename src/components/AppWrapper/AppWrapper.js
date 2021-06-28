@@ -6,7 +6,7 @@ import AppMain from './AppMain/AppMain';
 let AppWrapper = () => {
   const appWrapperRef = useRef();
   return (
-    <div className='app_wrapper' ref={appWrapperRef} >
+    <div className='app' ref={appWrapperRef} >
       <AppHeader fullScreen={appWrapperRef} close={() => {
         if (document.fullscreenElement != null) {
           document.exitFullscreen();

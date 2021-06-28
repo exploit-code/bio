@@ -6,11 +6,11 @@ import Certificates from './Certificates/Certificates';
 
 let AppMain = () => {
     return (
-        <div className="app_main">
+        <main className="main">
             <AboutMe />
             <AboutWork />
             <Certificates />
-        </div>
+        </main>
     );
 }
 export default AppMain;

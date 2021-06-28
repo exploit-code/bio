@@ -1,4 +1,4 @@
-.work_description {
+.work-list__description {
     list-style: none;
     margin: 10px;
     background-color: rgba(146, 151, 179, 0.13);
@@ -9,34 +9,34 @@
     font-size: 15px;
 }
 
-.work_description li:hover {
+.work-list__description li:hover {
     background-color: rgba(16, 18, 27, 0.3);
     transition: 0.3s;
 }
 
-.work_description li:nth-child(1n) {
+.work-list__description li:nth-child(1n) {
     border-bottom: 1px solid rgba(113, 119, 144, 0.25);
 }
 
-.work_description li:first-child {
+.work-list__description li:first-child {
     border-top: 0px;
 }
 
-.work_description li:last-child {
+.work-list__description li:last-child {
     border-bottom: 0px;
 }
 
-.hidden_work_info {
+.work-list__description-hidden {
     padding: 0px;
 }
 
-.work_description li {
+.work-list__description li {
     display: flex;
     align-items: center;
     padding: 10px 20px;
 }
 
-.work_description li div {
+.work-list__description li div {
     width: 5px;
     min-width: 5px;
     height: 5px;
@@ -47,16 +47,16 @@
 }
 
 @media screen and (max-width: 550px) {
-    .work_description {
+    .work-list__description {
         margin: 10px 10px 10px 10px;
     }
 
-    .work_description li {
+    .work-list__description li {
         padding: 10px 10px;
         font-size: 12px;
     }
 
-    .work_description li div {
+    .work-list__description li div {
         margin-right: 10px;
     }
 }

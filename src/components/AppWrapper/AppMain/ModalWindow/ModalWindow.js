@@ -4,11 +4,11 @@ import './ModalWindow.css';
 
 let ModalWindow = (props) => {
     return (
-        <div className="overlay_app">
-            <div className="pop_up" onClick={(event) => event.stopPropagation()}>
+        <div className="overlay-app">
+            <div className="pop-up" onClick={(event) => event.stopPropagation()}>
                 <HeaderButtons close={props.close} onlyRed />
-                <div className="popup_content">
-                    <img className="certificate_img" src={props.imgSrc} alt='' />
+                <div className="pop-up__content">
+                    <img className="pop-up__img" src={props.imgSrc} alt='' />
                 </div>
             </div>
         </div>

@@ -6,21 +6,21 @@ import WorkDescription from '../WorkDescription/WorkDescription';
 
 let WorkItem = (props) => {
     const [showDescription, setShow] = useState(false);
-    let markerClassName = 'marker';
+    let markerClassName = 'work-list__marker';
     if (props.data.isGreen) {
-        markerClassName = 'green_marker';
+        markerClassName = 'work-list__marker--green';
     }
     return (
         <>
-            <li className='work_item' onClick={() => setShow(!showDescription)}>
-                <div className='work_info'>
-                    <div className='company_block'>
-                        <img className='icon' src={props.data.icon} alt='' />
-                        <div className='company'>{props.data.company}</div>
+            <li className='work-list__item' onClick={() => setShow(!showDescription)}>
+                <div className='work-list__info'>
+                    <div className='work-list__company-box'>
+                        <img className='work-list__icon' src={props.data.icon} alt='' />
+                        <div className='work-list__company'>{props.data.company}</div>
                     </div>
-                    <div className="position_block">
+                    <div className="work-list__position-box">
                         <div className={markerClassName} />
-                        <div className='position'>{props.data.position}</div>
+                        <div className='work-list__position'>{props.data.position}</div>
                     </div>
                     <TransparentButton />
                 </div>

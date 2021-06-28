@@ -31,12 +31,12 @@ const cardItem = dataCards.map((item, index) => {
 
 let Certificates = () => {
     return (
-        <div className='about_certificates'>
+        <section className='about-certificates'>
             <Title title={'Пройденные тесты и курсы:'} />
-            <div className='certificate_cards'>
+            <div className='certificate-cards'>
                 {cardItem}
             </div>
-        </div>
+        </section>
     );
 }
 export default Certificates;

@@ -4,8 +4,8 @@ import './HeaderAvatar.css';
 
 let HeaderAvatar = () => {
     return (
-        <div className='header_avatar'>
-            <img className='avatar_img' src={avatar} alt='avatar' />
+        <div className='header__avatar-box'>
+            <img className='header__avatar-img' src={avatar} alt='avatar' />
         </div>
     );
 }

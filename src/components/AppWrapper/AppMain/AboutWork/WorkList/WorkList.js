@@ -41,7 +41,7 @@ let WorkList = () => {
         return <WorkItem data={item} key={index} />
     });
     return (
-        <ul className='work_list'>
+        <ul className='work-list'>
             {dataItems}
         </ul>
     );
