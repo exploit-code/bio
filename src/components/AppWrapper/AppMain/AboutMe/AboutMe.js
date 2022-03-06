@@ -9,7 +9,7 @@ let AboutMe = () => {
             <div className='about-me__text'>
                 <h1 className='about-me__sup-text'>Привет, меня зовут Александр.<br />Я HTML-верстальщик и начинающий Frontend-разработчик.</h1>
                 <div className='about-me__sub-text'>Моё обучение никогда не останавливается, ведь мир не стоит на месте и всегда нужно сохранять актуальность своих знаний.</div>
-                <a href='https://t.me/E_xploit' target='// eslint-disable-next-line _blank'>
+                <a href='https://t.me/exploit_bio' target='// eslint-disable-next-line _blank'>
                     <Button text={'Напиши мне!'} />
                 </a>
             </div>

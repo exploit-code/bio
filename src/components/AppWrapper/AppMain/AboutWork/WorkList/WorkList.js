@@ -4,10 +4,21 @@ import WorkItem from './WorkItem/WorkItem';
 import workIcon1 from '../../../../../pictures/icon_work_1.png';
 import workIcon2 from '../../../../../pictures/icon_work_2.png';
 import workIcon3 from '../../../../../pictures/icon_work_3.png';
+import workIcon4 from '../../../../../pictures/icon_work_4.png';
 
 const data = [
     {
-        icon: workIcon1, company: 'ООО «ИРСО»', position: 'HTML-верстальщик', isGreen: true, description: [
+        icon: workIcon4, company: 'Outside Digital', position: 'Старший контент-менеджер', isGreen: true, description: [
+            'Контент-поддержка ИТ продукта (веб-сервис)',
+            'Настройка и ведение процессов поддержки (актуализация базы знаний, FAQ, инструкции)',
+            'Участие в обучении пользователей работе с системой',
+            'Коммуникация с клиентом, отчётность по работе',
+            'Взаимодействие с отделом разработки, постановка ТЗ',
+            'Предложение roadmap по улучшению продукта и сервисов'
+        ]
+    },
+    {
+        icon: workIcon1, company: 'ООО «ИРСО»', position: 'HTML-верстальщик', description: [
             'Поддержка и развитие существующих проектов компании',
             'Кроссплатформенная, валидная адаптивная верстка',
             'Оптимизация кода для повышения производительности ресурсов',
