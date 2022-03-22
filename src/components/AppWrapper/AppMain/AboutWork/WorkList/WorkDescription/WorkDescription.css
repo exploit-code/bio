@@ -1,70 +1,64 @@
 .work-list__description {
-    list-style: none;
-    margin: 10px;
-    background-color: rgba(146, 151, 179, 0.13);
-    border: 1px solid rgba(16, 18, 27, 0.3);
-    border-radius: 15px;
-    overflow: auto;
-    padding: 0px;
-    font-size: 15px;
-}
-
-.work-list__description li:hover {
-    background-color: rgba(16, 18, 27, 0.3);
-    transition: 0.3s;
+  list-style: none;
+  margin: 10px;
+  background-color: rgba(146, 151, 179, 0.13);
+  border: 1px solid rgba(16, 18, 27, 0.3);
+  border-radius: 15px;
+  overflow: auto;
+  padding: 0px;
+  font-size: 15px;
 }
 
 .work-list__description li:nth-child(1n) {
-    border-bottom: 1px solid rgba(113, 119, 144, 0.25);
+  border-bottom: 1px solid rgba(113, 119, 144, 0.25);
 }
 
 .work-list__description li:first-child {
-    border-top: 0px;
+  border-top: 0px;
 }
 
 .work-list__description li:last-child {
-    border-bottom: 0px;
+  border-bottom: 0px;
 }
 
 .work-list__description-hidden li {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .work-list__description li {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 14px;
 }
 
 .work-list__description li div {
-    width: 5px;
-    min-width: 5px;
-    height: 5px;
-    min-height: 5px;
-    border-radius: 50%;
-    margin-right: 15px;
-    background-color: rgba(249, 250, 251, 0.55);
+  width: 5px;
+  min-width: 5px;
+  height: 5px;
+  min-height: 5px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: rgba(249, 250, 251, 0.55);
 }
 
 @media screen and (max-width: 850px) {
-    .work-list__description-hidden li {
-        font-size: 13px;
-    }
+  .work-list__description-hidden li {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .work-list__description {
-        margin: 10px 10px 10px 10px;
-    }
+  .work-list__description {
+    margin: 10px 10px 10px 10px;
+  }
 
-    .work-list__description li {
-        padding: 10px 10px;
-        font-size: 12px;
-    }
+  .work-list__description li {
+    padding: 10px 10px;
+    font-size: 12px;
+  }
 
-    .work-list__description li div {
-        margin-right: 10px;
-    }
-
+  .work-list__description li div {
+    margin-right: 10px;
+  }
 }
